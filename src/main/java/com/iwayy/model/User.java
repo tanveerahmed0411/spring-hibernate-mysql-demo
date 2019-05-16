@@ -8,6 +8,10 @@ import javax.persistence.Table;
 
 import lombok.Data;
 
+/* 
+ * This class represents a user entity in the database 
+ * */
+
 @Entity
 @Table(name = "user")
 @Data
